@@ -8,6 +8,7 @@ const exploreBtn = document.getElementById("exploreBtn");
 openBtn.addEventListener("click", () => {
   dialogBox.style.display = "flex";
 });
+
 // Close dialog
 closeBtn.addEventListener("click", () => {
   dialogBox.style.display = "none";
