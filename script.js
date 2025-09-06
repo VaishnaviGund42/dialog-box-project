@@ -34,3 +34,8 @@ loginForm.addEventListener("submit", (e) => {
     alert("❌ Invalid username or password!");
   }
 });
+
+// Explore button scroll
+exploreBtn.addEventListener("click", () => {
+  document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+});
