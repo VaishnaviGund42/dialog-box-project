@@ -131,3 +131,19 @@
 .contact button:hover {
   background: #005fd1;
 }
+/* Responsive */
+@media (max-width: 600px) {
+  .navbar .nav-links {
+    flex-direction: column;
+    background: #0072ff;
+    padding: 10px;
+  }
+
+  .dialog-actions {
+    flex-direction: column;
+  }
+
+  .dialog-actions button {
+    margin: 5px 0;
+  }
+}
